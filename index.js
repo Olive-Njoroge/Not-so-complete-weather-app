@@ -46,7 +46,7 @@ function formatDate(date){
     return `${day} ${hour}:${minutes}`;
 }
 
-function displayForecast(response){
+/*function displayForecast(response){
     let forecast = document.querySelector(".weather");
     let days = ["Tue", "Wed", "Thur", "Fri", "Sat"];
     let forecastHtml = "";
@@ -69,4 +69,4 @@ function getForecast(city){
     let apiKey = "db36a36a2f66f8114f09od05493b24tc";
     axios.get(apiUrl).then(displayForecast);
 
-}
+}*/
